@@ -9,8 +9,12 @@ export default function Home() {
           🌹 Kannauj’s Finest Rose Water 🌿
         </h1>
         <p className="text-lg text-gray-700 leading-relaxed">
-          Experience the **purest, traditionally distilled rose water** from the perfume capital of India—**Kannauj**.  
-          Crafted using the **ancient Deg-Bhapka method**, our rose water is **100% natural, chemical-free**, and **luxuriously aromatic**.
+          Experience the{" "}
+          <strong>purest, traditionally distilled rose water</strong> from the
+          perfume capital of India—<strong>Kannauj</strong>. Crafted using the{" "}
+          <strong>ancient Deg-Bhapka method</strong>, our rose water is{" "}
+          <strong>100% natural, chemical-free</strong>, and{" "}
+          <strong>luxuriously aromatic</strong>.
         </p>
 
         {/* Hero Image */}
@@ -25,7 +29,7 @@ export default function Home() {
         </div>
 
         <p className="text-xl font-semibold text-[#8B5E3B] mt-4">
-          🌿 **500ml for ₹500 – Limited Introductory Offer!** 🌿
+          🌿 <strong>500ml for ₹500 – Limited Introductory Offer!</strong> 🌿
         </p>
         <a
           href="https://wa.me/918471022070?text=I%20want%20to%20order%20Kannauj%20Rose%20Water"
@@ -37,25 +41,48 @@ export default function Home() {
 
       {/* Why Choose Us Section */}
       <section className="max-w-4xl text-center mt-12 p-6">
-        <h2 className="text-2xl font-bold text-[#8B5E3B] mb-4">🌿 Why Our Rose Water? 🌿</h2>
+        <h2 className="text-2xl font-bold text-[#8B5E3B] mb-4">
+          🌿 Why Our Rose Water? 🌿
+        </h2>
         <p className="text-gray-700 leading-relaxed">
-          Unlike commercial rose waters, **we use no artificial fragrances, alcohol, or preservatives**.  
-          Our rose water is **steam-distilled**, making it **pure, hydrating, and therapeutic**.
+          Unlike commercial rose waters,{" "}
+          <strong>
+            we use no artificial fragrances, alcohol, or preservatives
+          </strong>
+          . Our rose water is <strong>steam-distilled</strong>, making it{" "}
+          <strong>pure, hydrating, and therapeutic</strong>.
         </p>
         <ul className="text-gray-700 space-y-3 mt-4">
-          <li>✅ **100% Pure & Chemical-Free** – No artificial additives.</li>
-          <li>✅ **Distilled Using Traditional Deg-Bhapka Method** – Ensuring the highest quality.</li>
-          <li>✅ **Multipurpose** – Great for **skincare, haircare, aromatherapy**, and wellness.</li>
-          <li>✅ **Sustainably Sourced** – Directly from **Kannauj’s heritage farms**.</li>
+          <li>
+            ✅ <strong>100% Pure & Chemical-Free</strong> – No artificial
+            additives.
+          </li>
+          <li>
+            ✅ <strong>Distilled Using Traditional Deg-Bhapka Method</strong> –
+            Ensuring the highest quality.
+          </li>
+          <li>
+            ✅ <strong>Multipurpose</strong> – Great for{" "}
+            <strong>skincare, haircare, aromatherapy</strong>, and wellness.
+          </li>
+          <li>
+            ✅ <strong>Sustainably Sourced</strong> – Directly from{" "}
+            <strong>Kannauj’s heritage farms</strong>.
+          </li>
         </ul>
       </section>
 
       {/* Traditional Process Section */}
       <section className="w-full max-w-4xl text-center bg-[#f8ebe6] p-8 mt-12 rounded-lg shadow-md">
-        <h2 className="text-2xl font-bold text-[#8B5E3B]">✨ The Traditional Deg-Bhapka Process ✨</h2>
+        <h2 className="text-2xl font-bold text-[#8B5E3B]">
+          ✨ The Traditional Deg-Bhapka Process ✨
+        </h2>
         <p className="text-gray-700 leading-relaxed mt-2">
-          This **centuries-old method** gently extracts the **finest rose essence** without losing its therapeutic properties.  
-          Each drop is **handcrafted to perfection**, ensuring **rich aroma and skin-enhancing benefits**.
+          This <strong>centuries-old method</strong> gently extracts the{" "}
+          <strong>finest rose essence</strong> without losing its therapeutic
+          properties. Each drop is
+          <strong>handcrafted to perfection</strong>, ensuring{" "}
+          <strong>rich aroma and skin-enhancing benefits</strong>.
         </p>
         {/* Process Image */}
         <div className="relative w-80 h-80 mx-auto mt-6">
@@ -71,21 +98,37 @@ export default function Home() {
 
       {/* Benefits Section */}
       <section className="max-w-4xl text-center mt-12 p-6">
-        <h2 className="text-2xl font-bold text-[#8B5E3B] mb-4">🌸 How to Use Our Rose Water? 🌸</h2>
+        <h2 className="text-2xl font-bold text-[#8B5E3B] mb-4">
+          🌸 How to Use Our Rose Water? 🌸
+        </h2>
         <ul className="text-gray-700 space-y-3">
-          <li>💦 **Toner** – Naturally tightens skin & reduces inflammation.</li>
-          <li>🛁 **Bath Ritual** – A few drops create a luxurious bath experience.</li>
-          <li>💆‍♀️ **Hair Mist** – Hydrates scalp & controls frizz.</li>
-          <li>😌 **Aromatherapy** – Relaxing floral fragrance for stress relief.</li>
+          <li>
+            💦 <strong>Toner</strong> – Naturally tightens skin & reduces
+            inflammation.
+          </li>
+          <li>
+            🛁 <strong>Bath Ritual</strong> – A few drops create a luxurious
+            bath experience.
+          </li>
+          <li>
+            💆‍♀️ <strong>Hair Mist</strong> – Hydrates scalp & controls frizz.
+          </li>
+          <li>
+            😌 <strong>Aromatherapy</strong> – Relaxing floral fragrance for
+            stress relief.
+          </li>
         </ul>
       </section>
 
       {/* Limited Offer Section */}
       <section className="w-full max-w-4xl text-center bg-[#8B5E3B] text-white p-6 mt-12 rounded-lg shadow-lg">
-        <h2 className="text-2xl font-bold">⏳ Limited Introductory Offer – Price Increasing Soon! 🚀</h2>
+        <h2 className="text-2xl font-bold">
+          ⏳ Limited Introductory Offer – Price Increasing Soon! 🚀
+        </h2>
         <p className="text-lg mt-2">
-          Get **500ml for ₹500** before prices increase to **₹799 → ₹1,299!**  
-          That’s just **₹100/week for premium skincare!**
+          Get <strong>500ml for ₹500</strong> before prices increase to{" "}
+          <strong>₹799 → ₹1,299!</strong>
+          That’s just <strong>₹100/week</strong> for premium skincare!
         </p>
         <a
           href="https://wa.me/918471022070?text=I%20want%20to%20order%20Kannauj%20Rose%20Water"
@@ -95,9 +138,12 @@ export default function Home() {
         </a>
       </section>
 
-      {/* Footer */}
-      <footer className="text-center text-gray-600 mt-12 text-sm">
-        © 2024 Kannauj Rose Water | All Rights Reserved
+      <footer className="text-center text-gray-600 mt-12 text-sm p-4">
+        <p>© 2024 Kannauj Rose Water | All Rights Reserved</p>
+        <p className="mt-2 italic">
+          *Product image is only for visual representation. Original packaging
+          may differ.*
+        </p>
       </footer>
     </main>
   );
